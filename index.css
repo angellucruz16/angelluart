@@ -114,7 +114,20 @@ flex-wrap: wrap;
             font-size: 26px;
             padding-top: 230px;
             margin-left: 159px;
+            margin-bottom: 50px;
         }
         .site-illustration-request__left-content_request-btn{
+            font-weight: 500;
+            font-size: 17px;
+            padding-top: 15px; padding-bottom: 15px; padding-left: 40px; padding-right: 40px;
+            margin-left: 159px;
+            color: cornsilk;
+            background: coral;
+        }
+        .site-illustration-request__collage-img{
+            position: absolute;
+            display: flex; z-index: 2;
+            margin-left: 640px;
+            margin-bottom: 800px;
             
         }
