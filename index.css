@@ -49,32 +49,72 @@ flex-wrap: wrap;
         /* por qué funciona con text allign? */
         text-align: center;
     }
-   
 /*s1*/
+
+/* this is section two-------------------*/
 .site-product-category{
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 290px;
     position: relative;
     }
-    .site-product-category__postcard-text-title{
-        position: absolute;left: 280px; top: 40px;
-        font-family: bely-display, sans-serif;
-        font-size: 40px;
-    }
-    .site-product-category__sticker-text-title{
-        position: absolute;left: 730px; top: 500px;
-        font-family: bely-display, sans-serif;
-        font-size: 40px;
-    }
-    .site-product-category__postcardprint{
-        margin-left: 8%; 
-    }
-    .site-product-category__sticker{
-        justify-content: center;
-    }
-    .site-product-category__merch{
-        margin-right: 8%;
-    }
-/* this is section two-------------------*/
+        .site-product-category__postcard-text-title{
+            position: absolute;left: 280px; top: 40px; z-index: 3;
+            font-family: bely-display, sans-serif;
+            font-size: 40px;
+        }
+        .site-product-category__sticker-text-title{
+            position: absolute;left: 730px; top: 500px;
+            font-family: bely-display, sans-serif;
+            font-size: 40px;
+        }
+        .site-product-category__merch-text-title{
+            position: absolute;left: 950px; top: 40px;
+            font-family: bely-display, sans-serif;
+            font-size: 40px;
+        }
+        /* articles */
+        .site-product-category__postcardprint{
+            margin-left: 8%; 
+            z-index: 2;
+        }
+        .site-product-category__sticker-text-title{
+            position: absolute;left: 730px; top: 500px;
+            font-family: bely-display, sans-serif;
+            font-size: 40px;
+        }
+        .site-product-category__sticker{
+            justify-content: center;
+        }
+        .site-product-category__merch{
+            margin-right: 8%;
+            z-index: 4;
+        }
+        .site-product-category__section2-deco-element__square-element{
+            position: absolute;left: 120px; top: 370px; z-index: 1;
+        }
+        .site-product-category__section2-deco-element__red-thing{
+            position: absolute;left: 1040px; top: 460px; z-index: 2;
+        }
+/*s2*/
+
+/* this is section three-------------------*/
+.site-illustration-request{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+        .site-illustration-request__left-content{
+            font-family: 'Mulish', sans-serif;
+            position: absolute; z-index: 2;
+        }
+        .site-illustration-request__left-content__text-info{
+            font-weight: 500;
+            font-size: 26px;
+            padding-top: 230px;
+            margin-left: 159px;
+        }
+        .site-illustration-request__left-content_request-btn{
+            
+        }
