@@ -1,0 +1,47 @@
+*{
+    /* Delate margin and padding for default */
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+/* en el container tambien va el display? */
+display: flex;
+width: 1440px;
+margin:0 auto;
+/* fracasó el wrap */
+flex-wrap: wrap;
+}
+/* section One-------------------*/
+.site-header__navigationBar{
+display: flex;
+justify-content: space-between;
+padding-top: 70px;
+padding-bottom: 60px;
+}
+    .site-header__navigationBar__right-ul{
+        list-style: none;
+        display: flex;
+        padding-left: 8%;
+    }
+    .site-header__navigationBar__right-ul__logoIcon{
+        padding-top: 5px;
+        margin-left: 100px;
+    }
+    .site-header__navigationBarLinks{
+        
+        padding-right: 8%;
+        font-family: 'Mulish', sans-serif;
+        list-style: none;
+        display: flex;
+        padding-top: 5px;
+    }
+    .site-header__navigationBarLinks__element{
+        margin-left:30px;
+        font-weight: 700;
+    }
+   
+   
+
+/* section one */
