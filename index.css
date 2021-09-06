@@ -15,10 +15,10 @@ flex-wrap: wrap;
 }
 /*This is section One-------------------*/
 .site-header__navigationBar{
-display: flex;
-justify-content: space-between;
-padding-top: 70px;
-padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 60px;
 }
     .site-header__navigationBar__right-ul{
         list-style: none;
@@ -51,5 +51,30 @@ padding-bottom: 60px;
     }
    
 /*s1*/
-
+.site-product-category{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    position: relative;
+    }
+    .site-product-category__postcard-text-title{
+        position: absolute;left: 280px; top: 40px;
+        font-family: bely-display, sans-serif;
+        font-size: 40px;
+    }
+    .site-product-category__sticker-text-title{
+        position: absolute;left: 730px; top: 500px;
+        font-family: bely-display, sans-serif;
+        font-size: 40px;
+    }
+    .site-product-category__postcardprint{
+        margin-left: 8%; 
+    }
+    .site-product-category__sticker{
+        justify-content: center;
+    }
+    .site-product-category__merch{
+        margin-right: 8%;
+    }
 /* this is section two-------------------*/
