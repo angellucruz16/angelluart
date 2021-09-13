@@ -9,9 +9,13 @@
 body {
     overflow-x: hidden;
 }
-
+.container-section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
 .container {
-/* en el container tambien va el display? */
 display: flex;
 width: 1440px;
 margin:0 auto;
@@ -20,7 +24,6 @@ flex-wrap: wrap;
 }
 /*This is section One-------------------*/
 .site-header__navigationBar{
-    display: flex;
     justify-content: space-between;
     padding-top: 70px;
     padding-bottom: 60px;
@@ -35,7 +38,6 @@ flex-wrap: wrap;
         margin-left: 100px;
     }
     .site-header__navigationBarLinks{
-        /* por que no aplica colooor */
         padding-right: 8%;
         font-family: 'Mulish', sans-serif;
         list-style: none;
@@ -61,17 +63,14 @@ flex-wrap: wrap;
     .image__decoration {
         position: absolute;
     }
-
     .image__decoration--one {
         bottom: 100px;
-        left: 100px;
+        right: 160px;
     }
-
     .image__decoration--two {
-        top: 100px;
-        right: 35px;
-    }
-
+        top: 150px;
+        right: 120px;
+    } 
 /*s1*/
 
 /* this is section two-------------------*/
@@ -83,9 +82,7 @@ flex-wrap: wrap;
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 290px;
-
     }
-
         /* articles */
         .site-product-category__postcardprint{
             position: relative;
@@ -130,21 +127,21 @@ flex-wrap: wrap;
                 top: -60px;
                 right:215px;
             }
-        .site-product-category__section2-deco-element__square-element{
-            position: absolute; z-index: 1;
+        .site-product-category__section2-deco-element{
+            position: absolute; 
             width: 100%;
-            margin-left: 60%;
-            margin-right: 15%;
-            top: 380px;
-
-        }
-        .site-product-category__section2-deco-element__red-thing{
-            position: absolute; z-index: 2;
-            width: 100%;
-            margin-left: 150%;
-            margin-right: 14%;
             top: 380px;
         }
+        .site-product-category__section2-deco-element--square-element{
+            z-index: 1;
+            margin-left: 20%;
+        }
+        .site-product-category__section2-deco-element--red-thing{
+            z-index: 2;
+            /* no funciona */
+            right: 90px;          
+        }
+    
 /*s2*/
 
 /* this is section three-------------------*/
@@ -152,30 +149,78 @@ flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     position: relative;
+    width: 100%;
+    
 }
         .site-illustration-request__left-content{
             font-family: 'Mulish', sans-serif;
             position: absolute; z-index: 2;
+            font-weight: 500;
         }
         .site-illustration-request__left-content__text-info{
-            font-weight: 500;
-            font-size: 26px;
+            font-size: 1.7em;
             padding-top: 230px;
             margin-left: 159px;
             margin-bottom: 50px;
         }
         .site-illustration-request__left-content_request-btn{
-            font-weight: 500;
             font-size: 17px;
             padding-top: 15px; padding-bottom: 15px; padding-left: 40px; padding-right: 40px;
             margin-left: 159px;
+            border-radius: 50px;
             color: cornsilk;
-            background: coral;
+            background: #F2994A;
         }
         .site-illustration-request__collage-img{
             position: absolute;
-            display: flex; z-index: 2;
-            margin-left: 640px;
-            margin-bottom: 800px;
-            
+            z-index: 2;
+            top: -100px;
+            left: 820px;
         }
+/*s3*/
+
+/* this is section four-------------------*/
+/* .container-section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+} */
+.recently-added{
+    position: relative;
+}
+.text-info{
+    text-align: center;
+}
+.text-info h4{
+    font-family: bely-display, sans-serif;
+    color: #1D3137;
+    font-size: 2.5em;
+    margin-top: 260px;
+}
+.text-info p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0783F5;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.nav-images{
+    justify-content: center;
+    align-items: center;
+}
+.nav-images__decor-img{
+    position: absolute;
+}
+.nav-images__decor-img--1{
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: -420px;
+}
+.nav-images__decor-img--2{
+    position: absolute;
+    right: -420px;
+}
