@@ -171,33 +171,36 @@ flex-wrap: wrap;
 }
         .site-illustration-request__left-content{
             font-family: 'Mulish', sans-serif;
-            /*position: absolute;*/
             z-index: 2;
             font-weight: 500;
+            margin-left: 100px;
+        }
+        .site-illustration-request__left-content__title{
+            padding-top: 230px;
+            
         }
         .site-illustration-request__left-content__text-info{
             font-size: 1.7em;
-            padding-top: 230px;
-            margin-left: 159px;
+            padding-top: 15px;
             margin-bottom: 50px;
         }
-        .site-illustration-request__left-content_request-btn{
+        .site-illustration-request__left-content__request-btn{
             font-size: 1.1em;
             padding-top: 15px;
             padding-bottom: 15px;
             padding-left: 40px;
             padding-right: 40px;
-            margin-left: 159px;
             border-radius: 50px;
             color: cornsilk;
             background: #F2994A;
         }
         .site-illustration-request__collage-img{
-            /*position: absolute;*/
             z-index: 2;
             top: -100px;
             left: 820px;
+            margin-left: 80px;
         }
+        
 /*s3*/
 
 /* this is section four-------------------*/
