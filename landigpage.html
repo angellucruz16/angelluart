@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="./styles/mobile.css">
 </head>
 <body>
+
+    1. En rsponsive pasar todas las imagenes a % para evitar esos margenes blancos.
+    2. Organizar las imagenes decorativos o ocultarlas (display:¨none)
+    3. Terminar el footer
+    4. Apartir de 768px las categorias bajarlas (flex-dorection:column)
+
     <!-- this is section1 -->
     <header class="site-header">
         <nav class="site-header__navigationBar container"> 
@@ -94,19 +100,15 @@
     <!-- this is section3 -->
     <div class="site-illustration-request">
         <div class="background">
-        <article class="site-illustration-request__left-content">
-           <img class="site-illustration-request__left-content__title" src="./img/section3/textElements3.png" alt="title section 3">
-            <p class="site-illustration-request__left-content__text-info">Buy a unique illustration with the<br>photo or character you want!</p>
-            <a href="#" class="site-illustration-request__left-content__request-btn btn-config">SEND REQUEST</a>
-        </article>
-        <aside class="site-illustration-request__collage-img">
-            <img src="./img/section3/img1s3.png" alt="section 3 collage img">
-        </aside>
-        <!-- <figure class="site-illustration-request:before">
-            <img src="./img/section3/element1s3.png" alt="background color img">
-          </figure> -->
-          
-    </div>
+            <article class="site-illustration-request__left-content">
+            <img class="site-illustration-request__left-content__title" src="./img/section3/textElements3.png" alt="title section 3">
+                <p class="site-illustration-request__left-content__text-info">Buy a unique illustration with the<br>photo or character you want!</p>
+                <a href="#" class="site-illustration-request__left-content__request-btn btn-config">SEND REQUEST</a>
+            </article>
+            <aside class="site-illustration-request__collage-img">
+                <img src="./img/section3/img1s3.png" alt="section 3 collage img">
+            </aside>
+         </div>
     </div>
 
     <!-- s3 -->
@@ -127,12 +129,9 @@
             <a href="#">
                 <img src="./img/section4/img3s4.png" alt="recently img section 4">
             </a>
-
             <img class="nav-images__decor-img--1" src="./img/section4/element1s4.png" alt="plant decor 1">
             <img class="nav-images__decor-img--2" src="./img/section4/element2s4.png" alt="plant decor 1">
-
         </nav>
-        
         <a href="#" class="btn-section btn-config">LOOK ALL</a>
     </section>
 
@@ -144,7 +143,7 @@
             <img class="section-image__alternative" src="./img/section5/img1s5.png" alt="thankyou image">
             <img src="./img/section5/thankyou.png" alt="thanyou text">
         </figure>
-        <p>Thanks to your support I can continue working as a freelance artist and designer.</p>
+        <p>Thanks to your support I can continue working as<br>a freelance artist and designer.</p>
     </div>
     <!-- s5 -->
 
@@ -156,25 +155,35 @@
                     
                 </div>
                 <div class="footer-column">
-                    <li><a href="#">shipping</a></li>
-                    <li><a href="#">faq</a></li>
+                    <ul>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">faq</a></li>
+                    </ul>
                 </div>
                 <div class="footer-column">
-                    <li><a href="#">about me</a></li>
-                    <li><a href="#">contact</a></li>
+                    <ul>
+                        <li><a href="#">about me</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
                 </div>
                 <div class="footer-column">
-                    <li><a href="#">artwork</a></li>
-                    <li><a href="#">shop</a></li>
+                    <ul>
+                        <li><a href="#">artwork</a></li>
+                        <li><a href="#">shop</a></li>
+                    </ul>
                 </div>
                 <div class="footer-column">
-                    <li><a href="#">cart</a></li>
-                    <li><a href="#">search</a></li>
+                    <ul>
+                        <li><a href="#">cart</a></li>
+                        <li><a href="#">search</a></li>
+                    </ul>
                 </div>
                 <div class="footer-column">
-                    <li><p>newsletter</p></li>
-                    <li><p>sign up for the latest news <br>and offers </p></li>
-                    <li><a href="#">subscribe</a></li>
+                    <ul>
+                        <li><p>newsletter</p></li>
+                        <li><p>sign up for the latest news <br>and offers </p></li>
+                        <li><a href="#">subscribe</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -182,5 +191,4 @@
         <img src="#" alt="">
     </footer>
 </body>
-
 </html> 
