@@ -101,6 +101,31 @@
         overflow: hidden;
     }
 
+    .site-illustration-request__left-content{
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px ;
+    }
+    .site-illustration-request__left-content__text-info{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .illustration-request__left-content__request-btn{
+text-align: center;
+
+    }
+    .site-illustration-request__left-content__title1{
+        display: none;
+    }
+    .site-illustration-request__left-content img:nth-child(2){
+        margin-left: 20%;
+        padding: 0;
+        width: 60%;
+        display: block;
+        top: 50px;
+    }
     .site-illustration-request:before {
         height: 90%;
         top: 20px;
