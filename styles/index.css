@@ -329,6 +329,60 @@ flex-wrap: wrap;
     margin-top: 15px;
     margin-bottom: 60px;
 }
+/* this is newsletter------ */
+form {
+    width: 100%;
+    background-color: #FAEFE8;
+  }
+  
+  .container-news {
+    padding: 20px;
+    background-color: #FAEFE8;
+    display: flex;
+    font-family: bely-display, sans-serif;
+    color: #1D3137;
+  }
+  .container-news img {
+      display: block;
+      margin: auto;
+      width: 2%;
+  }
+.container-news h2 {
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  input[type=text], input[type=submit] {
+    display: block;
+    margin: auto;
+    padding: 12px;
+    padding: 12px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid rgb(241, 188, 73);
+    box-sizing: border-box;
+  }
+  .container-news-check{
+
+      display: block;
+      margin: auto;
+      width: 200px;
+      padding: 20px 0;
+  }
+  input[type=checkbox] {
+    margin-top: 16px;
+    width: 40px;
+  }
+  input[type=submit] {
+      margin: auto;
+    background-color: #F2994A;
+    border-radius: 50px;
+    color: white;
+    border: none;
+  }
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
 /* this is section six-------------------*/
 /* Footer section */
 
