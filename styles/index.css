@@ -311,14 +311,17 @@ flex-wrap: wrap;
 /* this is section six-------------------*/
 /* Footer section */
 
+
 .footer{
     box-sizing: border-box;
     background-color: #FAEFE7;
     padding: 70px 0;
+    font-family: 'Mulish', sans-serif;
+    color: #F2B30F;
+    font-weight: 900;
 }
 .container-footer{
     max-width: 1170px;
-    background-color:red;
     margin: auto;
 }
 .row-list{
