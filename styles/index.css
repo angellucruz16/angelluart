@@ -363,7 +363,6 @@ form {
     box-sizing: border-box;
   }
   .container-news-check{
-
       display: block;
       margin: auto;
       width: 200px;
@@ -373,6 +372,7 @@ form {
     margin-top: 16px;
     width: 40px;
   }
+  
   input[type=submit] {
       margin: auto;
     background-color: #F2994A;
