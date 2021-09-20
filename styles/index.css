@@ -19,7 +19,6 @@ body {
 display: flex;
 width: 1440px;
 margin:0 auto;
-/* fracasó el wrap */
 flex-wrap: wrap;
 }
 .btn-config{
@@ -30,7 +29,8 @@ flex-wrap: wrap;
     padding-right: 40px;
     border-radius: 50px;
 }
-/*This is section One-------------------*/
+/*This is section 1---------------------------------*/
+/* Main image and nav links bar*/
 .site-header__navigationBar{
     justify-content: space-between;
     padding-top: 70px;
@@ -59,24 +59,27 @@ flex-wrap: wrap;
     .site-header__navigationBarLinks__element a{
         color: #F2B30F;
     }
+.figure{
+    position: relative;
+}
 .section-one-img{
      display: flex;
      justify-content: center;
      align-items: center;
      margin-top: 50px;
-     position: relative;
+     width: 100%;
      z-index: 2;
     }
-
     .image__decoration {
         position: absolute;
+        width: 30%;
     }
     .image__decoration--one {
-        bottom: 100px;
-        right: 160px;
+        bottom: 318px;
+        right: 100px;
     }
     .image__decoration--two {
-        top: 150px;
+        top: 216px;
         right: 120px;
     } 
 /*s1*/
@@ -306,29 +309,24 @@ flex-wrap: wrap;
     margin-bottom: 60px;
 }
 /* this is section six-------------------*/
-ul{
-    list-style: none;
-}
+/* Footer section */
+
 .footer{
-    position: relative;
-    width: 100%;
-    font-family: 'Mulish', sans-serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #0783F5;
-    align-content: center;
+    box-sizing: border-box;
+    background-color: #FAEFE7;
+    padding: 70px 0;
 }
-.row{
+.container-footer{
+    max-width: 1170px;
+    background-color:red;
+    margin: auto;
+}
+.row-list{
     display: flex;
     flex-wrap: wrap;
 }
-.footer:before{
-    content: "";
-    width: 100%;
-    height: 494px;
-    background-image: url(../img/section6/element1s6.png);
-    position: absolute;
-    bottom: -41%;
+ul{
+    list-style: none;
 }
 .footer-column{
     width: 25%;

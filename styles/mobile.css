@@ -3,7 +3,7 @@
     .container {
         width: 100%;
     }
-
+    /* this is section 1----------- */
     .site-header__navigationBar {
        flex-direction: column;
        align-items: center;
@@ -24,6 +24,9 @@
     .section-one-img {
         width: 100%;
     }
+    .image__decoration{
+        width: 30%;
+    }
 }
 
 @media all and (max-width: 1024px) {
@@ -34,6 +37,9 @@
 
     .section-one-img__main {
         width: 100%;
+    }
+    .image__decoration{
+        
     }
 
     .site-product-category {
